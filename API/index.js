@@ -4,7 +4,7 @@ import cors from "cors"
 
 const app = express()
 
-const baseUrl = process.env.PORT || 8800;
+const port = process.env.PORT || 8800;
 
 app.use(express.json())
 app.use(cors())
