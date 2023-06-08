@@ -11,4 +11,6 @@ app.use(cors())
 
 app.use("/", userRoutes)
 
-app.listen(8800)
+app.listen(port, () => {
+    console.log(`Server is running on port ${port}`);
+  });
